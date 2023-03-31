@@ -110,8 +110,6 @@ void loop() {
       pwm.setPWM(5, 0, altlolidpulse);
       }
 
-
-
           Serial.println(trimval);
       
   delay(5);
