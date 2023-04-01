@@ -1,0 +1,7 @@
+<launch>
+
+    <node type="rviz" name="rviz" pkg="rviz" 
+        args="-d $(find viktor_robot)/rviz/eyes.rviz"
+    />
+    
+</launch>
